@@ -1,10 +1,10 @@
 {
-  "name": "tornado-deploy",
+  "name": "Illusion-deploy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf torn-token/build && rm -rf tornado-anonymity-mining/build/contracts && rm -rf tornado-governance/build",
+    "clean": "rm -rf torn-token/build && rm -rf Illusion-anonymity-mining/build/contracts && rm -rf Illusion-governance/build",
     "generate": "node src/generate.js",
     "airdrop": "node src/airdrop.js",
     "ens": "node src/ens.js",
